@@ -92,7 +92,11 @@ async def cease_stream(client, message):
         return await eor(message, "**I am Not in VC!**")
 
 try:
-    # Your group call logic here
+    # Indented code block here
+    # Replace this comment with the actual code logic
+    group_call = await join_group_call()
 except GroupCallNotFound as e:
     print(f"Group call not found: {e}")
+
+
     
