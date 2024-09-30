@@ -6,7 +6,7 @@ from crowgram import download_media_file
 from crowgram import get_media_info, get_media_stream
 from pyrogram import filters
 from pytgcalls.exceptions import AlreadyJoinedError, GroupCallNotFound
-from pytgcalls.exceptions import NoActiveGroupCall, TelegramServerError
+from pytgcalls.exceptions import NoActiveGroupCall
 
 
 @app.on_message(cdz(["ply", "play", "vply", "vplay"]) & ~filters.private)
